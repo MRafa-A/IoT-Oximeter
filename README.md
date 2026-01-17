@@ -190,6 +190,8 @@ For **Blynk IoT implementation**:
 ## Hardware Connections
 
 ### Pin Configuration
+
+### MAX30100/30102 → NodeMCU:
 ```
 MAX30100/30102 → NodeMCU:
 --------------   --------
@@ -198,6 +200,8 @@ GND            →  GND
 SCL            →  D1 (GPIO05)
 SDA            →  D2 (GPIO04)
 ```
+
+### I2C LCD Module → NodeMCU:
 ```
 I2C LCD Module → NodeMCU:
 --------------   -------
@@ -206,6 +210,8 @@ GND            →  GND
 SCL            →  D1 (GPIO05)
 SDA            →  D2 (GPIO04)
 ```
+
+### Circuit Diagram
 ```
 NodeMCU V3
               ┌─────────────────┐
