@@ -8,4 +8,4 @@ A comprehensive IoT pulse oximeter system built with ESP8266 NodeMCU and MAX3010
 
 [Features](#features)
 
-[What is IoT](#WhaTiSIot)
+[What is IoT](#WhaTisIot)
