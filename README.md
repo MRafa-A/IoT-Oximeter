@@ -93,3 +93,31 @@ LCD 16x2 with I2C Module
 * I2C Address: 0x27 or 0x3F (configurable)
 * Operating Voltage: 5V
 * Backlight: Adjustable via potentiometer
+
+## Software Requirements
+
+### Development Tools
+* **Arduino IDE v1.8.13 or higher**
+    * **Download**: [https://www.arduino.cc/en/software](https://www.arduino.cc/en/software)
+* **ESP8266 Board Package v2.7.4 or higher**
+    * Added via **Board Manager**
+* **CH340G USB Driver** (if not auto-detected)
+    * For **NodeMCU USB communication**
+
+
+
+### Required Libraries
+All libraries included in `/libraries` folder:
+
+1. **MAX30100lib** - Pulse oximeter sensor library
+2. **LiquidCrystal_I2C** - I2C LCD display library
+3. **Blynk Library** - IoT platform (for **Option 2**)
+4. **ESP8266WiFi** - WiFi connectivity (built-in)
+5. **ESP8266WebServer** - Web server (built-in)
+
+### Mobile Application (Optional)
+For **Blynk IoT implementation**:
+
+* **Blynk IoT app**
+    * [Android Download](https://play.google.com/store/apps/details?id=cloud.blynk)
+    * [iOS Download](https://apps.apple.com/us/app/blynk-iot/id1559317868)
