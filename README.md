@@ -194,13 +194,14 @@ For **Blynk IoT implementation**:
 ### MAX30100/30102 → NodeMCU:
 
 ### MAX30100/30102 → NodeMCU:
-* **VIN** →  **3.3V** ⚠️ **IMPORTANT: Use 3.3V, NOT 5V!**
-* **GND** →  **GND**
-* **SCL** →  **D1 (GPIO05)**
-* **SDA** →  **D2 (GPIO04)**
-
+---
+**VIN** →  **3.3V** ⚠️ **IMPORTANT: Use 3.3V, NOT 5V!**
+**GND** →  **GND**
+**SCL** →  **D1 (GPIO05)**
+**SDA** →  **D2 (GPIO04)**
+---
 ### I2C LCD Module → NodeMCU:
-* **VCC** →  **5V**
-* **GND** →  **GND**
-* **SCL** →  **D1 (GPIO05)**
-* **SDA** →  **D2 (GPIO04)**
+**VCC** →  **5V**
+**GND** →  **GND**
+**SCL** →  **D1 (GPIO05)**
+**SDA** →  **D2 (GPIO04)**
