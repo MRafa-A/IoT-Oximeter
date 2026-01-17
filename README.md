@@ -58,6 +58,7 @@ IoT System Components
 |Jumper Wires|M-M,M-F|10-15|Connections|
 |USB Cable|Micro USB|1|Programming & power|
 
+
 NodeMCU V3 ESP8266 Specifications
 
 * Microcontroller: Tensilica 32-bit RISC CPU
@@ -69,3 +70,26 @@ NodeMCU V3 ESP8266 Specifications
 * Communication: UART, SPI, I2C
 * WiFi: 802.11 b/g/n (2.4GHz)
 * Current: 80mA average
+
+MAX30100/30102 Sensor Specifications
+* Operating Voltage: 1.8V - 3.3V
+*  LED Supply: 3.3V internal
+* nterface: I2C
+* Dimensions: 19.6 x 15.56 mm
+* Operating Temperature: -40C to +85°C
+* Measurements: SpO2 & Heart Rate
+
+Pin Configuration:
+
+* VIN: Power input (1.8V -3.3V)
+* SCL: I2C Clock
+* SDA: I2C Data
+* GND: Ground
+
+LCD 16x2 with I2C Module
+
+* Display: 16 columns x 2 rows
+* Interface: I2C (only 4 wires needed!)
+* I2C Address: 0x27 or 0x3F (configurable)
+* Operating Voltage: 5V
+* Backlight: Adjustable via potentiometer
