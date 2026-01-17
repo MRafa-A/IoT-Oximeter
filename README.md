@@ -15,7 +15,6 @@ A comprehensive IoT pulse oximeter system built with ESP8266 NodeMCU and MAX3010
 * [Installation Guide](#installation-guide)
 * [Troubleshooting](#troubleshooting)
 * [Contributing](#contributing)
-* [License](#license)
 
 ## Features
 
@@ -121,3 +120,29 @@ For **Blynk IoT implementation**:
 * **Blynk IoT app**
     * [Android Download](https://play.google.com/store/apps/details?id=cloud.blynk)
     * [iOS Download](https://apps.apple.com/us/app/blynk-iot/id1559317868)
+
+## Getting Started
+
+## Quick Start Guide
+
+### 1. Hardware Assembly (15 minutes)
+* Connect MAX30100 sensor to NodeMCU
+* Connect I2C LCD to NodeMCU
+* Verify all connections
+
+### 2. Software Setup (20 minutes)
+* Install Arduino IDE
+* Add ESP8266 board support
+* Install required libraries
+
+### 3. Choose Implementation (Select one):
+* **Option 1: LCD Only** (Simplest)
+* **Option 2: Blynk IoT** (Remote monitoring)
+* **Option 3: Web Server** (Browser access)
+
+### 4. Upload & Test
+* Configure WiFi settings (if using IoT)
+* Upload code to NodeMCU
+* Test functionality
+
+**Detailed Setup → See [INSTALLATION.md](INSTALLATION.md)**
