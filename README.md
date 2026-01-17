@@ -60,12 +60,12 @@ IoT System Components
 
 NodeMCU V3 ESP8266 Specifications
 
-. Microcontroller: Tensilica 32-bit RISC CPU
-. Flash Memory: 4MB
-· Operating Voltage: 3.3V
-· Input Voltage: 7-12V (VIN) or 5V (USB)
-· Digital I/O Pins: 16
-· Analog Input: 1 (10-bit ADC)
-· Communication: UART, SPI, I2C
-· WiFi: 802.11 b/g/n (2.4GHz)
-· Current: 80mA average
+* Microcontroller: Tensilica 32-bit RISC CPU
+* Flash Memory: 4MB
+* Operating Voltage: 3.3V
+* Input Voltage: 7-12V (VIN) or 5V (USB)
+* Digital I/O Pins: 16
+* Analog Input: 1 (10-bit ADC)
+* Communication: UART, SPI, I2C
+* WiFi: 802.11 b/g/n (2.4GHz)
+* Current: 80mA average
