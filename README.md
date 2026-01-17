@@ -46,3 +46,20 @@ IoT System Components
 2. Internet: WiFi connectivity via ESP8266
 3. Cloud/Server: Blynk servers or local web server
 4. Application: Mobile app or web browser interface
+
+## Hardware Requirements
+|Component|Specification|Quantity|Purpose|
+|-|-|
+|NodeMCU V3|ESP8266 ESP-12E|1|Main controller with WiFi|
+
+NodeMCU V3 ESP8266 Specifications
+
+. Microcontroller: Tensilica 32-bit RISC CPU
+. Flash Memory: 4MB
+· Operating Voltage: 3.3V
+· Input Voltage: 7-12V (VIN) or 5V (USB)
+· Digital I/O Pins: 16
+· Analog Input: 1 (10-bit ADC)
+· Communication: UART, SPI, I2C
+· WiFi: 802.11 b/g/n (2.4GHz)
+· Current: 80mA average
