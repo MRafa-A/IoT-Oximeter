@@ -147,7 +147,7 @@ For **Blynk IoT implementation**:
 
 **Detailed Setup → See [INSTALLATION.md](INSTALLATION.md)**
 
-## Three Implementation Option
+## Three Implementation Options
 ### Option 1: LCD Display Only
 **Perfect for**: Standalone portable oximeter
 
