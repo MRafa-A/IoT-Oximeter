@@ -206,3 +206,19 @@ GND            →  GND
 SCL            →  D1 (GPIO05)
 SDA            →  D2 (GPIO04)
 ```
+
+NodeMCU V3
+              ┌─────────────────┐
+   D1 (GPIO5) │                 │ ──> SCL (I2C Clock)
+   D2 (GPIO4) │                 │ ──> SDA (I2C Data)
+              │                 │
+        3.3V  │                 │ ──> MAX30100 VIN
+          5V  │                 │ ──> LCD VCC
+         GND  │                 │ ──> MAX30100 GND
+              │                 │ └──> LCD GND
+              │                 │
+      USB Port│                 │ <── Programming & Power
+              └─────────────────┘
+
+      └──> MAX30100 SDA & LCD SDA
+      └──> MAX30100 SCL & LCD SCL
