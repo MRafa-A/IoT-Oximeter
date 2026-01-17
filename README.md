@@ -49,7 +49,7 @@ IoT System Components
 
 ## Hardware Requirements
 |Component|Specification|Quantity|Purpose|
-|-|-|
+|-|-|-|-|
 |NodeMCU V3|ESP8266 ESP-12E|1|Main controller with WiFi|
 
 NodeMCU V3 ESP8266 Specifications
