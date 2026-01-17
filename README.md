@@ -51,6 +51,8 @@ IoT System Components
 |Component|Specification|Quantity|Purpose|
 |-|-|-|-|
 |NodeMCU V3|ESP8266 ESP-12E|1|Main controller with WiFi|
+|-|-|-|-|
+|MAX30100/30102|Pulse oximeter sensor|1|Measure BPM & SpO2|
 
 NodeMCU V3 ESP8266 Specifications
 
