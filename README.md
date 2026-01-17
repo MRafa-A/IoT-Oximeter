@@ -206,7 +206,7 @@ GND            →  GND
 SCL            →  D1 (GPIO05)
 SDA            →  D2 (GPIO04)
 ```
-
+```
 NodeMCU V3
               ┌─────────────────┐
    D1 (GPIO5) │                 │ ──> SCL (I2C Clock)
@@ -222,3 +222,4 @@ NodeMCU V3
 
       └──> MAX30100 SDA & LCD SDA
       └──> MAX30100 SCL & LCD SCL
+```
