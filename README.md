@@ -16,3 +16,13 @@ A comprehensive IoT pulse oximeter system built with ESP8266 NodeMCU and MAX3010
 * [Troubleshooting](#troubleshooting)
 * [Contributing](#contributing)
 * [License](#license)
+
+##Features
+
+. Real-time Monitoring: Continuous heart rate and SpO2 measurement
+. LCD Display: 16x2 12C LCD for local data visualization
+. loT Connectivity: Remote monitoring via Blynk mobile app
+. Cloud Integration: Data logging and historical tracking
+. Beat Detection: Visual/audio feedback on heartbeat detection
+. Automatic Calibration: Self-calibrating sensor readings
+. Low Power: Optimized for extended operation
