@@ -29,12 +29,9 @@ A comprehensive IoT pulse oximeter system built with ESP8266 NodeMCU and MAX3010
 
 ## What is IoT?
 Internet of Things (IoT) connects physical devices to the internet, enabling remote
-
 monitoring and control. In this project:
 
-
 Traditional Oximeter: You must be physically present to read values
-
 
 IoT Oximeter: You can:
 
