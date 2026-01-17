@@ -146,3 +146,42 @@ For **Blynk IoT implementation**:
 * Test functionality
 
 **Detailed Setup → See [INSTALLATION.md](INSTALLATION.md)**
+
+## Three Implementation Option
+### Option 1: LCD Display Only
+**Perfect for**: Standalone portable oximeter
+
+**What you get**:
+* Real-time readings on LCD screen
+* No internet required
+* Battery-friendly operation
+* Instant measurements
+
+**Ideal use**: Personal use, medical clinics, field work
+📖 **Guide**: `docs/OPTION1_LCD.md`
+
+### Option 2: IoT with Blynk Mobile App
+**Perfect for**: Remote patient monitoring
+
+**What you get**:
+* Monitor from anywhere via smartphone
+* Beautiful gauge displays
+* Historical data tracking
+* Mobile push notifications
+* Multi-device support
+
+**Ideal use**: Telemedicine, elderly care, remote health monitoring
+📖 **Guide**: `docs/OPTION2_BLYNK.md`
+
+### Option 3: Web Server Interface
+**Perfect for**: Professional multi-user systems
+
+**What you get**:
+* Access from any web browser
+* No app installation needed
+* Professional interface
+* Auto-refresh display
+* Multiple simultaneous users
+
+**Ideal use**: Hospital monitoring, medical facilities, web-based systems
+📖 **Guide**: `docs/OPTION3_WEBSERVER.md`
