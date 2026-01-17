@@ -17,7 +17,7 @@ A comprehensive IoT pulse oximeter system built with ESP8266 NodeMCU and MAX3010
 * [Contributing](#contributing)
 * [License](#license)
 
-##Features
+## Features
 
 * Real-time Monitoring: Continuous heart rate and SpO2 measurement
 * LCD Display: 16x2 12C LCD for local data visualization
