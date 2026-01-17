@@ -200,6 +200,7 @@ GND →  GND
 SCL →  D1 (GPIO05)
 
 SDA →  D2 (GPIO04)
+
 ---
 ### I2C LCD Module → NodeMCU:
 **VCC** →  **5V**
