@@ -12,6 +12,7 @@ A comprehensive IoT pulse oximeter system built with ESP8266 NodeMCU and MAX3010
 * [Software Requirements](#software-requirements)
 * [Getting Started](#getting-started)
 * [Three Implementation Options](#three-implementation-options)
+* [Hardware Connections](#hardware-connections)
 * [Installation Guide](#installation-guide)
 * [Troubleshooting](#troubleshooting)
 * [Contributing](#contributing)
@@ -185,3 +186,25 @@ For **Blynk IoT implementation**:
 
 **Ideal use**: Hospital monitoring, medical facilities, web-based systems
 📖 **Guide**: `docs/OPTION3_WEBSERVER.md`
+
+## Hardware Connections
+
+### Pin Configuration
+
+### MAX30100/30102 → NodeMCU:
+
+| MAX30100/2 | NodeMCU | Notes |
+| :--- | :--- | :--- |
+| **VIN** | **3.3V** | ⚠️ **IMPORTANT: Use 3.3V, NOT 5V!** |
+| **GND** | **GND** | |
+| **SCL** | **D1 (GPIO5)** | |
+| **SDA** | **D2 (GPIO04)** | |
+
+### I2C LCD Module → NodeMCU:
+
+| I2C LCD | NodeMCU |
+| :--- | :--- |
+| **VCC** | **5V** | |
+| **GND** | **GND** | |
+| **SCL** | **D1 (GPIO5)** | |
+| **SDA** | **D2 (GPIO04)** | |
