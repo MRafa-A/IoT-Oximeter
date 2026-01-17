@@ -26,3 +26,26 @@ A comprehensive IoT pulse oximeter system built with ESP8266 NodeMCU and MAX3010
 * Beat Detection: Visual/audio feedback on heartbeat detection
 * Automatic Calibration: Self-calibrating sensor readings
 * Low Power: Optimized for extended operation
+
+## What is IoT?
+Internet of Things (IoT) connects physical devices to the internet, enabling remote
+
+monitoring and control. In this project:
+
+
+Traditional Oximeter: You must be physically present to read values
+
+
+IoT Oximeter: You can:
+
+* Monitor readings from anywhere with internet
+* Receive alerts on your smartphone
+* Track historical data in the cloud
+* Access from multiple devices simultaneously
+
+IoT System Components
+
+1. Hardware/Things: Sensors (MAX30100) and actuators
+2. Internet: WiFi connectivity via ESP8266
+3. Cloud/Server: Blynk servers or local web server
+4. Application: Mobile app or web browser interface
