@@ -123,7 +123,7 @@ For **Blynk IoT implementation**:
 
 ## Getting Started
 
-## Quick Start Guide
+### Quick Start Guide
 
 ### 1. Hardware Assembly (15 minutes)
 * Connect MAX30100 sensor to NodeMCU
