@@ -51,8 +51,12 @@ IoT System Components
 |Component|Specification|Quantity|Purpose|
 |-|-|-|-|
 |NodeMCU V3|ESP8266 ESP-12E|1|Main controller with WiFi|
-|-|-|-|-|
 |MAX30100/30102|Pulse oximeter sensor|1|Measure BPM & SpO2|
+|LCD 16x2|With I2C module|1|Local display|
+|I2C Module|PCF8574|1|LCD interface adapter|
+|Breadboard|Standard|1|Prototype connections|
+|Jumper Wires|M-M,M-F|10-15|Connections|
+|USB Cable|Micro USB|1|Programming & power|
 
 NodeMCU V3 ESP8266 Specifications
 
